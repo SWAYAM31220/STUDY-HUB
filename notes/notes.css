@@ -1,0 +1,52 @@
+body {
+    background-image: url(https://images.hdqwalls.com/wallpapers/solid-break-abstract-8k-ju.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.head {
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 76), 0 0 5px darkblue;
+}
+
+.x {
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(231, 243, 125, 0.788);
+    margin-left: 10px;
+    display: inline-block;
+    text-shadow: 1px 1px 2px rgb(196, 105, 105), 0 0 25px rgb(255, 0, 76), 0 0 5px rgb(99, 99, 138);
+    font-size: larger;
+}
+
+.xd {
+    margin: 1px;
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+@media screen and (max-width:800px) {
+    .x {
+        margin-top: 34px;
+        font-size: large;
+        color: rgba(231, 243, 125, 0.788);
+        margin-left: 10px;
+        display: inline-block;
+        text-shadow: 1px 1px 2px rgb(196, 105, 105), 0 0 25px rgb(255, 0, 76), 0 0 5px rgb(99, 99, 138);
+
+    }
+
+    .xd {
+        margin: 1px;
+        width: 305px;
+        height: 88px;
+        padding: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    }
+}
